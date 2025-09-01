@@ -1,0 +1,25 @@
+.box{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 200px 500px 200px;
+}
+.box1{
+border: 1px solid red;
+background-color: brown;
+grid-column-start: 2;
+grid-column-end: 3;
+grid-row-start: 1;
+grid-row-end: 2;
+}
+.box2{
+border: 1px solid red;
+background-color: aqua;
+}
+.box3{
+border: 1px solid red;
+background-color: orange;
+}
+.box4{
+border: 1px solid red;
+background-color: palevioletred;
+}

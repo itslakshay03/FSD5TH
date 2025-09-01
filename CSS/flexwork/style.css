@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    background-color: aqua;
+    border: 1px solid red;
+    justify-content: space-evenly;
+    /* flex-wrap: wrap; */
+    /* gap: 10px; */
+}
+.child1{
+background-color: blue;
+border: 1px solid red;
+height: 300px;
+width: 300px;
+}
+.child2{
+background-color: yellow;
+border: 1px solid red;
+height: 300px;
+width: 300px;
+}
+.child3{
+background-color: plum;
+border: 1px solid red;
+height: 300px;
+width: 300px;
+}
+.child4{
+background-color: orange;
+border: 1px solid red;
+height: 300px;
+width: 300px;
+}
