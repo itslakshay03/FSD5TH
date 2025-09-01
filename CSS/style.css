@@ -1,0 +1,44 @@
+/* body{
+    background-color: brown;
+} */
+ /* h2{
+    color: chartreuse;
+ } */
+ /* *{
+    color: chartreuse;
+ }
+ .heading2{
+    background-color: cornflowerblue;
+ }
+ #para{
+    background-color: cornflowerblue;
+ }
+ #heading3{
+    background-color: cornflowerblue;
+ } */
+  div~p{
+    background-color: aqua;
+  }
+  p:hover{
+    background-color: darkcyan;
+    font-size: larger;
+  }
+  p::after{
+    content: "react development";
+    background-color: brown;
+    color: beige;
+  }
+  p::selection{
+    background-color: chartreuse;
+  }
+  p::before{
+    content: "hey!!";
+    background-color: burlywood;
+    color: crimson;
+  }
+  p:nth-child(2){
+    background-color: black;
+  }
+  div p:nth-of-type(1){
+
+  }
