@@ -1,25 +1,110 @@
+/* body{
+  background-color: blue;
+} */
 .box{
     display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows: 200px 500px 200px;
+    grid-template-columns:repeat(4,1fr);
+    grid-template-rows: 100px 70px 500px 200px;
 }
+
 .box1{
-border: 1px solid red;
-background-color: brown;
-grid-column-start: 2;
-grid-column-end: 3;
+border: 1px dotted red;
+background-color: aquamarine;
+display: grid;
+grid-template-columns: repeat(2,1fr);
+grid-template-rows: repeat(2,1fr);
+/* grid-column-start: 1;
+grid-column-end: 4;
 grid-row-start: 1;
-grid-row-end: 2;
+grid-row-end: 2; */
+gap: 10px;
+}
+.box11{
+width: 150px;
+height: 150px;
+border: 1px solid red;
+background-color: chartreuse;
+margin-top: 20px;
+margin-left: 10px;
+
+
+}
+
+.box12{
+    width: 150px;
+height: 150px;
+border: 1px solid red;
+background-color:bisque;
+margin-top: 20px;
+}
+.box13{
+    width: 150px;
+height: 150px;
+border: 1px solid red;
+background-color:cornsilk;
+margin-left: 10px;
+}
+
+.box14{
+    width: 150px;
+height: 150px;
+border: 1px solid red;
+background-color:darkgrey
 }
 .box2{
-border: 1px solid red;
-background-color: aqua;
+border: 1px dotted red;
+background-color:beige;
 }
+
 .box3{
-border: 1px solid red;
-background-color: orange;
+border: 1px dotted red;
+background-color:burlywood;
 }
 .box4{
+border: 1px dotted red;
+background-color: chocolate;
+}
+
+.header{
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  background-color: rgb(0, 0, 0);
+  border: rgb(0, 0, 0);
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.subheader{
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  background-color: rgb(20, 20, 19);
+  border: 1px solid white;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+}
+.subheader:hover{
+    background-color: tomato;
+    cursor:pointer;
+}
+.box21{
+    width: 150px;
+height: 150px;
 border: 1px solid red;
-background-color: palevioletred;
+background-color:bisque;
+margin-top: 20px;
+margin-left: 20px;
+}
+.box22{
+    width: 150px;
+height: 150px;
+border: 1px solid red;
+background-color:bisque;
+margin-top: 20px;
+margin-left: 20px;
 }
