@@ -50,19 +50,25 @@
 // }
 // msg(); 
 
-function selectLanguage(lang) {
-    if (lang === "english") {
-        console.log("Hello, Welcome!");
-    } else if (lang === "hindi") {
-        console.log("नमस्ते, स्वागत है!");
-    } else if (lang === "french") {
-        console.log("Bonjour, bienvenue!");
-    } else {
-        console.log("Language not supported.");
-    }
-}
+// function selectLanguage(lang) {
+//     if (lang === "english") {
+//         console.log("Hello, Welcome!");
+//     } else if (lang === "hindi") {
+//         console.log("नमस्ते, स्वागत है!");
+//     } else if (lang === "french") {
+//         console.log("Bonjour, bienvenue!");
+//     } else {
+//         console.log("Language not supported.");
+//     }
+// }
 
-selectLanguage("english");
-selectLanguage("hindi");
-selectLanguage("french");
-selectLanguage("spanish"); 
+// selectLanguage("english");
+// selectLanguage("hindi");
+// selectLanguage("french");
+// selectLanguage("spanish"); 
+
+// const div=document.getElementsByTagName("div");
+// div[0].innerText="Hello";
+// div[0].style.color='red';
+// div[0].style.backgroundColor='green';
+// console.log(div);
