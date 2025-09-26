@@ -72,3 +72,4 @@
 // div[0].style.color='red';
 // div[0].style.backgroundColor='green';
 // console.log(div);
+
